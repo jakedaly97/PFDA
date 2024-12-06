@@ -39,6 +39,19 @@ for _ in range(1000): # loops the below code 1000 times
 print("Total attacker wins:", total_attacker_wins)
 print("Total defender wins:", total_defender_wins)
 
+import matplotlib.pyplot as plt
+
+# data for the bar chart
+variables = ['Attacker Wins', 'Defender Wins']
+data = [total_attacker_wins, total_defender_wins]
+
+# plotting the bar chart
+plt.figure(figsize=(8, 6))
+plt.bar(variables, data, color=['red', 'blue'])
+plt.title('Attacker vs Defender Win Rate')
+plt.ylabel('Total Wins')
+plt.show()
+
 # Resources
 # https://www.w3schools.com/python/ref_func_range.asp
 # https://docs.python.org/3/library/random.html
