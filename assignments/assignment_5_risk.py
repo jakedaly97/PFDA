@@ -5,6 +5,10 @@
 import random
 import numpy as py
 
+# seed random number to ensure same result everytime
+
+random.seed(1)
+
 # variables keep track of the total number of wins for attacker and defender across 1000 simulations
 total_attacker_wins = 0
 total_defender_wins = 0
