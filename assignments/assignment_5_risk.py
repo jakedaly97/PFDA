@@ -50,6 +50,7 @@ plt.figure(figsize=(8, 6))
 plt.bar(variables, data, color=['red', 'blue'])
 plt.title('Attacker vs Defender Win Rate')
 plt.ylabel('Total Wins')
+plt.savefig('attacker_vs_defender_win_rate.png')
 plt.show()
 
 # Resources
