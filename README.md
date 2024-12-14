@@ -14,7 +14,7 @@ Each task, written in Python, was designed to implement and explore a specific f
 
 ## Assignments Overview
 
-The project encompasses a total of **5 assignments**, detailed as follows:
+The project encompasses a total of **4 assignments**, detailed as follows:
 
 ### 1. **Assignment 2: Weather Data**  
    - **File**: `assignment2-weather.ipynb`  
