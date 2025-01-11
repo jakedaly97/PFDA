@@ -71,6 +71,7 @@ You can install the necessary libraries using the following command:
 
 ```bash
 pip install pandas matplotlib numpy geopandas geoplot scikit-learn
+```
 
 ---
 
